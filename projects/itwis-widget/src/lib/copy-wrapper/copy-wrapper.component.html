@@ -1,0 +1,32 @@
+<!--(click)="handleClicks()"-->
+<div #wrapper class="wrapper">
+  <div class="itwis-logo" *ngIf="showLogo">created by
+    <svg class="itwis-logo__picture" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="840mm" height="470mm" version="1.1"
+         style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+         viewBox="0 0 84000 47000"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   .fil0 {
+     fill: black;
+     fill-rule: nonzero;
+   }
+  </style>
+ </defs>
+      <g id="Слой_x0020_1">
+  <polygon class="fil0" points="60832,38796 59038,38796 59038,8775 60832,8775"/>
+        <!--  <rect x="59038" y="8775" width="1794" height="30021" />-->
+        <polygon class="fil0" points="59561,38819 56399,38819 56399,19502 59561,19502 "/>
+        <path class="fil0"
+              d="M70031 31481c-913,0 -1861,-250 -2850,-755 -983,-498 -1647,-899 -1972,-1204 -320,-293 -576,-535 -761,-719l0 9028c738,307 1584,577 2539,811 1391,346 2816,519 4290,519 3674,0 6601,-955 8780,-2858 2173,-1903 3259,-4200 3259,-6892 0,-5602 -4381,-8216 -9396,-9396 -934,-221 -1716,-505 -2339,-851 -1120,-623 -1288,-1711 -283,-2525 1569,-1291 4573,122 5999,1563l5390 -5618c-2105,-2002 -4020,-3066 -6837,-3716 -1266,-290 -2587,-436 -3964,-436 -2974,0 -5455,670 -7438,2012l0 14530c253,154 513,303 781,445 893,471 1799,851 2713,1142 913,291 1737,560 2477,816 1586,539 2972,1736 1901,3239 -490,686 -1501,865 -2289,865z"/>
+        <path class="fil0"
+              d="M33867 8833l-5640 15850 -5351 0 0 -4895 -2759 0 16 11558 2042 0 0 7542 9182 0 5221 -14753 6084 14753c1219,0 1935,0 3312,0l10376 -30110 -5888 0 -5770 16444 -6465 -16389 -4360 0z"/>
+        <path class="fil0"
+              d="M25221 17690l0 -8863 -23658 0 0 4333 7963 0 0 23155 2040 0 0 2502 2723 0 0 -21137c7310,0 -2552,10 10932,10z"/>
+        <polygon class="fil0" points="1557,38796 3352,38796 3352,15263 1557,15263 "/>
+        <polygon class="fil0" points="5680,38819 2519,38819 2519,19502 5680,19502 "/>
+ </g>
+</svg>
+  </div>
+  <ng-content *ngIf="!showLogo"></ng-content>
+</div>

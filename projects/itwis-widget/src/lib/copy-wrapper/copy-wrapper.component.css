@@ -1,0 +1,36 @@
+.wrapper {
+  cursor: pointer;
+  user-select: none;
+}
+
+.itwis-logo {
+  animation-name: show-copy;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  display: flex;
+  align-items: center;
+}
+
+.itwis-logo__picture {
+  margin-left: 5px;
+  height: 25px;
+  width: auto;
+}
+
+@keyframes show-copy {
+  0% {
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,13 @@
+<svg *ngIf="isDemos" class="demos" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" preserveAspectRatio="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <g #logo clip-path="url(#clip0_6_7551)">
+    <path *ngFor="let path of logoPaths" [attr.d]="path.d" [attr.fill]="path.fill"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_6_7551">
+      <rect width="1920" height="1080" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+
+<ng-content></ng-content>
